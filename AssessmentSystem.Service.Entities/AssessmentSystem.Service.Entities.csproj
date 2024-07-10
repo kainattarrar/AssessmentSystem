@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AssessmentSystem.Service.Models\AssessmentSystem.Service.Models.csproj" />
+    <ProjectReference Include="..\AssessmentSystem.Service.Shared\AssessmentSystem.Service.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
