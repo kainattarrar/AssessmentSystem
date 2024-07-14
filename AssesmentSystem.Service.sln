@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssessmentSystem.Service.Shared", "AssessmentSystem.Service.Shared\AssessmentSystem.Service.Shared.csproj", "{A3395B7E-1975-4850-B9ED-3FF0FF478DC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssessmentSystem.Service.Shared", "AssessmentSystem.Service.Shared\AssessmentSystem.Service.Shared.csproj", "{A3395B7E-1975-4850-B9ED-3FF0FF478DC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssessmentSystem.Service.Entities", "AssessmentSystem.Service.Entities\AssessmentSystem.Service.Entities.csproj", "{A50E8B36-07BB-4B91-9235-FD3066657AD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssessmentSystem.Service.Entities", "AssessmentSystem.Service.Entities\AssessmentSystem.Service.Entities.csproj", "{A50E8B36-07BB-4B91-9235-FD3066657AD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssessmentSystem.Service.Models", "AssessmentSystem.Service.Models\AssessmentSystem.Service.Models.csproj", "{76CDADB4-1494-4AF7-904B-D9A9310E8C60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssessmentSystem.Service.Models", "AssessmentSystem.Service.Models\AssessmentSystem.Service.Models.csproj", "{76CDADB4-1494-4AF7-904B-D9A9310E8C60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssessmentSystem.Service.Data", "AssessmentSystem.Service.Data\AssessmentSystem.Service.Data.csproj", "{FB194A39-C2DB-4EC7-AF69-437C605A4FFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssessmentSystem.Service.Data", "AssessmentSystem.Service.Data\AssessmentSystem.Service.Data.csproj", "{FB194A39-C2DB-4EC7-AF69-437C605A4FFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssessmentSystem.Service.BusinessLogic", "AssessmentSystem.Service.BusinessLogic\AssessmentSystem.Service.BusinessLogic.csproj", "{F490FC9B-9C6D-4F71-9FC5-6474D500FAC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssessmentSystem.Service.BusinessLogic", "AssessmentSystem.Service.BusinessLogic\AssessmentSystem.Service.BusinessLogic.csproj", "{F490FC9B-9C6D-4F71-9FC5-6474D500FAC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssessmentSystem.Service.API", "AssessmentSystem.Service.API\AssessmentSystem.Service.API.csproj", "{FB69F1BF-F535-4405-90B1-DAC6739210FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F490FC9B-9C6D-4F71-9FC5-6474D500FAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F490FC9B-9C6D-4F71-9FC5-6474D500FAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F490FC9B-9C6D-4F71-9FC5-6474D500FAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB69F1BF-F535-4405-90B1-DAC6739210FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB69F1BF-F535-4405-90B1-DAC6739210FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB69F1BF-F535-4405-90B1-DAC6739210FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB69F1BF-F535-4405-90B1-DAC6739210FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

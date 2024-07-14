@@ -17,5 +17,7 @@ namespace AssessmentSystem.Service.Data.Contexts
         public DbSet<Question> Questions { get; set; }
         public DbSet<Choice> Choices { get; set; }
         public DbSet<Answer> Answers { get; set; }
+        public DbSet<CandidateScore> CandidateScores { get; set; }
+        public DbSet<Email> Emails { get; set; }
     }
 }

@@ -13,6 +13,8 @@ namespace AssessmentSystem.Service.Data.UnitOfWorks
         IGenericRepository<Question> Questions { get; }
         IGenericRepository<Answer> Answers { get; }
         IGenericRepository<Choice> Choices { get; }
+        IGenericRepository<CandidateScore> CandidateScores { get; }
+        IGenericRepository<Email> Emails { get; }
 
         int SaveChanges();
         void BeginTransaction();
